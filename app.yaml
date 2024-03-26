@@ -1,0 +1,62 @@
+runtime: python39
+# api_version: 1
+# threadsafe: true
+
+runtime_config:
+  document_root: web
+
+handlers:
+  - url: /
+    static_files: web/index.html
+    upload: web/index.html
+
+  - url: /(.*)
+    static_files: web/\1
+    upload: web/(.*)
+
+  # - url: /index.html
+  #   static_files: web/index.html
+  #   upload: web/index.html
+
+  # - url: /about.html
+  #   static_files: web/about.html
+  #   upload: web/about.html
+
+  # - url: /blog.html
+  #   static_files: web/blog.html
+  #   upload: web/blog.html
+
+  # - url: /contact.html
+  #   static_files: web/contact.html
+  #   upload: web/contact.html
+
+  # - url: /product.html
+  #   static_files: web/product.html
+  #   upload: web/product.html
+
+  # - url: /js
+  #   static_dir: web/js
+
+  # - url: /css
+  #   static_dir: web/css
+
+  # - url: /fonts
+  #   static_dir: web/fonts
+
+  # - url: /icon
+  #   static_dir: web/icon
+
+  # - url: /images
+  #   static_dir: web/images
+
+  # - url: /.*
+  #   static_files: web/index.html
+  #   upload: web/index.html
+
+automatic_scaling:
+  min_idle_instances: automatic
+  max_idle_instances: automatic
+  min_pending_latency: automatic
+  max_pending_latency: automatic
+
+service_account: codeandfly-418406@appspot.gserviceaccount.com
