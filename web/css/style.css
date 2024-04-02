@@ -1790,7 +1790,7 @@ margin-top: 20px;
 }
 
 .choose_bg {
-	background: #f9be20;
+	background: #b78514;
 }
 
 
@@ -1824,7 +1824,7 @@ margin-top: 20px;
 margin: 0 auto;
 background: #fff;
 display: block;
-border: #f9be20 solid 2px;
+border: #b78514 solid 2px;
 text-align: center;
 padding: 10px 0px;
 color: #0a0401 !important;
@@ -1832,7 +1832,7 @@ font-size: 20px;
 margin-top: 40px;
 }
 .read-more:hover {
-	background: #f9be20;
+	background: #b78514;
 	color: #0a0401;
 }
 
@@ -2276,7 +2276,7 @@ text-align: center;
 
 .about {padding-top: 90px;}
 .about .about_box figure {margin: 0;}
-.about .about_box figure img {width: 100%;}
+.about .about_box figure img {width: 75%;}
 .about .about_box h3 {color: #000; font-weight: bold; font-size: 30px; line-height: 35px;}
 .about .about_box p {color: #000; font-size: 17px; line-height: 23px; padding-top: 10px;}
 
